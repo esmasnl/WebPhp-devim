@@ -1,0 +1,4 @@
+Ödevim de ekle sil güncelle kodlarım galeri sayfamdadır. 1. dönem yaptığım html sitemin tasarımında biraz farklılıklar yaparak ve yönetim paneli oluşturarak projemi tamamladım. 
+phpmyadmin üzerinden tablolarımı oluşturdum. veri tabanıyla bağlantımı gerçekleştirdim.
+Veri tabanımı dışa aktar yaparak dosyamı projeme ekledim.
+yönetim paneli giriş bilgileri = kullanıcı adı: esma şifre: 12345

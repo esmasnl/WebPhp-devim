@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.konteynır{
+    background: url(bursa.jpg);
+    height: 150vh;
+    background-size: 100% 100%;
+}
+
+.konteynır .navbar{
+    width: 100%;
+    height: 75px;
+    background: rgb(160,82,45)
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffe4c4
+}
+
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background: #8B4513;
+border-radius: 2px;
+}
+
+.konteynır .merkez{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+
+.merkez h1{
+    color: #e0ffff;
+    font-size: 65px;
+    font-weight: bold;
+    width: 900px;
+}
+
+.merkez h2{
+    color: #e0ffff;
+    font-size: 55px;
+    font-weight: bold;
+    width: 890px;
+    margin-top: 10px;
+}
+
+.merkez .buton{
+    margin: 35px 280px;
+}
+
+.buton button{
+    height: 40px;
+    width: 130px;
+    font-size: 22px;
+    font-weight: bold;
+    color: sienna;
+    background: rgb(255,228,196);
+    border: solid 1px wheat;
+    cursor: pointer;
+    outline:none;
+    border-radius: 25px;
+}
+
+.buton button:hover{
+    background:white;
+
+}
+.icerik{
+    background: image() ;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 50%;
+    left:-400px;
+    background-color:bisque;
+}
+.icerik img {
+    max-width: 150px;
+    height: auto;
+    }
+
